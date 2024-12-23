@@ -20,8 +20,9 @@
   <img id="background" src="/assets/images/background-desktop.png" alt="">
   <img class="line" id="line-top" src="/assets/images/pattern-squiggly-line-top.svg" alt="">
   <img class="line" id="line-bottom" src="/assets/images/pattern-squiggly-line-bottom.svg" alt="">
+  <img class="line" src="/assets/images/pattern-lines.svg" alt="">
   <div class="container">
-    <div class="logo">
+    <div class="logo" id="top">
       <img src="/assets/images/logo-mark.svg" alt="">
       <h2>Coding Conf</h2>
     </div>
@@ -32,9 +33,12 @@
     <form>
       <div class="form-control">
         <label for="photo">Upload Avatar</label>
-        <input name="photo" type="file" accept="image/*">
-        Drag and drop or click to upload
-        Upload your photo (JPG or PNG, max size: 500KB).
+        <div class="inner-input">
+          <input name="photo" type="file" accept="image/*">
+          <img src="/assets/images/icon-upload.svg" alt="">
+          <p>Drag and drop or click to upload</p>
+        </div>
+        <span id="upload-info"><img src="/assets/images/icon-info.svg" alt="">Upload your photo (JPG or PNG, max size: 500KB).</span>
       </div>
       <div class="form-control">
         <label for="name">Full Name</label>
