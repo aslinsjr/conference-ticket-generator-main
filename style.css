@@ -45,7 +45,7 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
-    gap: 3rem;
+    gap: 2rem;
 }
 
 .logo {
@@ -81,10 +81,13 @@ header p {
 }
 
 form {
+    width: 600px;
     display: grid;
     gap: 1rem;
     align-items: center;
     justify-content: center;
+    position: relative;
+    margin: 1rem 0;
 }
 
 .form-control {
@@ -146,9 +149,21 @@ input[type="submit"] {
 }
 
 #ticket {
-    position: relative;
-    margin: 1rem 0;
+    position: absolute;
+    left: 0;
 }
+
+#info-container {
+    width: 100%;
+    display: flex;
+}
+
+/* #inner-ticket {
+    position: absolute;
+    top: 2rem;
+    left: 1rem;
+    font-size: 2rem;
+} */
 
 .attribution {
     font-size: 11px;
