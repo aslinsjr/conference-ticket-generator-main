@@ -112,6 +112,7 @@ input[type="submit"] {
     border-radius: 0.5rem;
     border: none;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .inner-input {
